@@ -13,7 +13,7 @@ class CardNota extends Component {
       <section className="card-nota">
         <header className="card-nota_cabecalho">
           <h3 className="card-nota_titulo">{this.props.titulo}</h3>
-          <DeleteSVG onClick={this.apaga.bind(this)}/>
+          <DeleteSVG className = "botao" onClick={this.apaga.bind(this)}/>
         </header>
         <p className="card-nota_texto">{this.props.texto}</p>
       </section>
